@@ -10,25 +10,33 @@ bent 个人向的提示词（Prompt）合集，专注于与 AI 编码助手（Cl
 
 ## 目录
 
-所有提示词存放在 [`common/`](./common) 下，每个文件顶部带 frontmatter（`tag` / `author` / `desc`），按主题组织：
+所有提示词存放在 [`hub_prompts/`](./hub_prompts) 下，每个文件顶部带 frontmatter（`tag` / `author` / `desc`），按主题组织：
 
 | 文件 | 主题 |
 | --- | --- |
-| [任务开始.md](./common/任务开始.md) | 业务归档、收工检验、任务种子初始化 |
-| [任务结束.md](./common/任务结束.md) | 任务收尾、交付前清理 |
-| [spec.md](./common/spec.md) | Technical Spec 产出工作流 |
-| [架构审计.md](./common/架构审计.md) | 架构合规性审查 |
-| [模块解耦.md](./common/模块解耦.md) | 职责分离与拆分建议 |
-| [API文档.md](./common/API文档.md) | 接口契约与文档生成 |
-| [错误处理.md](./common/错误处理.md) | 异常路径与健壮性加固 |
-| [安全性.md](./common/安全性.md) | 安全审查清单 |
-| [排雷兵.md](./common/排雷兵.md) | 潜在风险识别 |
-| [反复询问交互.md](./common/反复询问交互.md) | 收敛反复确认、对齐需求 |
-| [读心专家.md](./common/读心专家.md) | 深度联想，填补用户表达的空白 |
-| [烦人的甲方.md](./common/烦人的甲方.md) | 反向压力测试、需求抠细节 |
-| [傻瓜专用.md](./common/傻瓜专用.md) | 新手友好的解释模式 |
-| [记忆.md](./common/记忆.md) | 会话记忆沉淀 |
-| [记录决策.md](./common/记录决策.md) | 关键技术决策归档 |
+| [任务开始.md](./hub_prompts/任务开始.md) | 业务归档、收工检验、任务种子初始化 |
+| [任务结束.md](./hub_prompts/任务结束.md) | 任务收尾、交付前清理 |
+| [spec.md](./hub_prompts/spec.md) | Technical Spec 产出工作流 |
+| [架构审计.md](./hub_prompts/架构审计.md) | 架构合规性审查 |
+| [模块解耦.md](./hub_prompts/模块解耦.md) | 职责分离与拆分建议 |
+| [API文档.md](./hub_prompts/API文档.md) | 接口契约与文档生成 |
+| [错误处理.md](./hub_prompts/错误处理.md) | 异常路径与健壮性加固 |
+| [安全性.md](./hub_prompts/安全性.md) | 安全审查清单 |
+| [排雷兵.md](./hub_prompts/排雷兵.md) | 潜在风险识别 |
+| [反复询问交互.md](./hub_prompts/反复询问交互.md) | 收敛反复确认、对齐需求 |
+| [读心专家.md](./hub_prompts/读心专家.md) | 深度联想，填补用户表达的空白 |
+| [烦人的甲方.md](./hub_prompts/烦人的甲方.md) | 反向压力测试、需求抠细节 |
+| [傻瓜专用.md](./hub_prompts/傻瓜专用.md) | 新手友好的解释模式 |
+| [记忆.md](./hub_prompts/记忆.md) | 会话记忆沉淀 |
+| [记录决策.md](./hub_prompts/记录决策.md) | 关键技术决策归档 |
+
+## 文章
+
+收藏与原创的长文放在 [`hub_posts/`](./hub_posts) 下，记录值得反复回看的工程实践与协作经验：
+
+| 文件 | 主题 |
+| --- | --- |
+| [珍藏AGENTS.md](./hub_posts/珍藏AGENTS.md) | 关于 AGENTS.md 的珍藏整理 |
 
 ## 使用方式
 
