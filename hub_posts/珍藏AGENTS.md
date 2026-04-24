@@ -2,6 +2,7 @@
 tag: [人设]
 author: bent
 desc: 珍藏了好几个月的 AGENTS 人设模板
+date: 2026-04-24 11:00:00
 ---
 
 # 珍藏 AGENTS.md 模板
